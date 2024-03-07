@@ -1,0 +1,27 @@
+{
+  "name": "switchnpm",
+  "version": "1.0.0",
+  "description": "switch npm tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node -e \"try{require('./postinstall.js)}catch(e){}\""
+  },
+  "keywords": [
+    "nrm",
+    "npm",
+    "cnpm",
+    "yarn"
+  ],
+  "bin": {
+    "sn": "./src/index.js"
+  },
+  "author": "huangqiang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^12.0.0",
+    "inquirer": "^8.2.0",
+    "node-http-ping": "^0.3.1"
+  }
+}
