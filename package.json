@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node -e \"try{require('./postinstall.js)}catch(e){}\""
+    "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\""
   },
   "keywords": [
     "nrm",
