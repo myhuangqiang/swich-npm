@@ -1,1 +1,1 @@
-console.log('安装完后使用sn命令')
+console.log('安装完后使用hq命令')
